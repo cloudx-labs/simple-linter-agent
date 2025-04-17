@@ -1,0 +1,22 @@
+{
+  "env": {
+    "es2021": true,
+    "node": true
+  },
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "rules": {
+    "semi": ["error", "always"],
+    "quotes": ["error", "double"],
+    "no-unused-vars": ["warn"],
+    "indent": ["warn", 2],
+    "no-multiple-empty-lines": ["warn", { "max": 1 }],
+    "eol-last": ["warn", "always"],
+    "no-trailing-spaces": "warn",
+    "object-curly-spacing": ["warn", "always"],
+    "comma-dangle": ["warn", "always-multiline"]
+  }
+}

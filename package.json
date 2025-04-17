@@ -1,0 +1,16 @@
+{
+  "name": "agent-mvp",
+  "version": "1.0.0",
+  "description": "MVP mínimo de un agente IA con herramienta de linting",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "dotenv": "^16.3.1",
+    "eslint": "^8.56.0"
+  }
+}
