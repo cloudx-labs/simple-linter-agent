@@ -5,15 +5,15 @@ class UserProfile {
     this.email = email;
     this.createdAt = new Date();
   }
-
+  
   getUserSummary() {
     let summary = `Name: ${this.name}, Age: ${this.age}`;
     if (this.email != null) {
-      summary = `${summary}, Email: ${this.email}`;
+      summary = summary + `, Email: ${this.email}`;
     }
     return summary;
   }
-
+  
   static validateEmail(email) {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(email)) {
